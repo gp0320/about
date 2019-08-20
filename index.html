@@ -9,7 +9,7 @@
 			margin: 0;
 			padding: 0;
 			width: 100%;
-			font-size: 16px;
+			font-size: 15px;
 			font-family: sans-serif;
 		}
 		p,ul,li {
@@ -58,8 +58,8 @@
 			overflow: hidden;
 		}
 		section {
-			margin: 1rem 0;
-			padding-bottom: 2rem;
+			margin: 0.5rem 0;
+			padding-bottom: 1rem;
 			overflow: hidden;
 			border-bottom: 1px solid #dfdfdf;
 		}
@@ -80,6 +80,9 @@
 		}
 		.project-list-item {
 			margin-bottom: 2rem;
+		}
+		.project-list-item:last-child {
+			margin-bottom: .5rem;
 		}
 		.project-tech {
 			font-size: .8rem;
@@ -119,7 +122,7 @@
 		<header>
 			<h1>高坡</h1>
 			<p>前端开发</p>
-			<p>30岁 / 本科 / 8年经验</p>
+			<p>30岁 / 本科 / 7年经验</p>
 			<p>18801220553 / 5010320@qq.com</p>
 			<!--<p>> -->
 		</header>
@@ -127,20 +130,18 @@
 			<section id="skills">
 				<h3>个人能力</h3>
 				<ul class="skill-list">
-					<li>设计3年，前端5年</li>
 					<li>精通html | CSS | JS | PS</li>
-					<li>精通 AngularJs和VUE, 并阅读过源码，知晓原理，有大型项目经验</li>
+					<li>精通 AngularJs和Vue, 了解原理读过源码 </li>
 					<li>熟练掌握React，RN及移动端调试，并有开发经验</li>
 					<li>精通正则,可实现各种复杂验证</li>
-					<li>熟练掌握并研究过 webpack 和 Git，知晓原理。</li>
-					<li>熟练掌握NPM, Yarn, Lerna, Babel, Rollup，Jenkins。</li>
+					<li>熟练掌握并研究过 webpack 原理。</li>
+					<li>熟练掌握NPM, Yarn, Lerna, Babel, Rollup，Git, Jenkins。</li>
 					<li>熟练掌握设计模式 并有自己总结</li>
 					<li>熟练操作Linux，掌握常用shell Script。</li>
 					<li>熟练掌握并研究过浏览器渲染，http网络, 调试</li>
 					<li>熟练掌握express, koa, mongodb,并有实践应用</li>
-					<li>了解并使用过Docker, Nginx, Redis, MySQL，PHP, JAVA</li>
-					<li>有管理经验</li>
-					<li>有高质量原创掘金专栏：掘金ID: <a target="_blank" href="https://juejin.im/user/5976a74651882507db6e82ef/posts">博志书</a></li>
+					<li>了解并使用过Docker, Nginx, Redis, MySQL，PHP</li>
+					<li>有管理经验, 有原创掘金专栏：掘金ID: <a target="_blank" href="https://juejin.im/user/5976a74651882507db6e82ef/posts">博志书</a></li>
 				</ul>
 			</section>
 
@@ -154,8 +155,8 @@
 
 				<ul class="skill-list">
 					<li>负责金融前端项目版本迭代，负责任务分配，解决疑难bug。</li>
-					<li>负责人人车主站PC端，M端，小程序和一些node项目</li>
-					<li>负责人人车脚手架cli，组件库，jenkins部署, 招聘，技术分享</li>
+					<li>负责人人车主站PC端，M端，小程序和一些node项目的需求迭代</li>
+					<li>负责人人车脚手架cli，组件库，jenkins部署等工程化, 招聘，技术分享</li>
 				</ul>
 
 
@@ -166,7 +167,7 @@
 				<ul class="skill-list">
 					<li>ReachMax广告投放系统负责人，并参与其它产品线。</li>
 					<li>独立设计权限模块，实现菜单树跨层级拖拽，登录退出，路由和按钮的权限，角色和用户配置。</li>
-					<li>独立设计智营系统，是一个查看公司业务运行状态的平台，主要以echars图表为主。</li>
+					<li>独立设计智营系统，一个展示公司运营数据的平台，主要以echars图表为主。</li>
 					<li>自己封装许多指令和组件。</li>
 				</ul>
 				<div class="company">
@@ -179,13 +180,13 @@
 				</ul>
 
 				<div class="company">
-					<h4 class="company-name">爱丽女性网 (2011.8 - 2013.8)  网页设计与制作</h4>
+					<h4 class="company-name">爱丽时尚网 (2011.8 - 2013.8)  网页设计与制作</h4>
 				</div>
 
-				<!--<ul class="skill-list">-->
-					<!--<li>爱丽时尚网的页面设计与制作</li>-->
+				<ul class="skill-list">
+					<li>爱丽时尚网的页面设计与切图</li>
 					<!--<li>现在公司叫云锐集团</li>-->
-				<!--</ul>-->
+				</ul>
 
 			</section>
 
@@ -210,16 +211,16 @@
 							<!--<li>使用Android在手机端开发，Charles抓包，热更发版</li>-->
 						<!--</ul>-->
 					<!--</li>-->
-					<li class="project-list-item">
-						<h4 class="project-h">人人车主站(PC, M, MP)</h4>
-						<p class="project-tech">(php / jq / gulp)</p>
-						<p class="project-desc"></p>
-						<ul class="project-my-duty">
-							<li>负责需求迭代</li>
-							<li>PC和M端是PHP框架，前后端没有分离，本地运行Docker开发</li>
-							<li>MP项目是webpack和mina框架</li>
-						</ul>
-					</li>
+					<!--<li class="project-list-item">-->
+						<!--<h4 class="project-h">人人车主站(PC, M, MP)</h4>-->
+						<!--<p class="project-tech">(php / jq / gulp)</p>-->
+						<!--<p class="project-desc"></p>-->
+						<!--<ul class="project-my-duty">-->
+							<!--<li>负责需求迭代</li>-->
+							<!--<li>PC和M端是PHP框架，前后端没有分离，本地运行Docker开发</li>-->
+							<!--<li>MP项目是webpack和mina框架</li>-->
+						<!--</ul>-->
+					<!--</li>-->
 					<li class="project-list-item">
 						<h4 class="project-h">人人车脚手架, 组件库</h4>
 						<p class="project-tech">(webpack4 / vue / Lerna)</p>
@@ -285,14 +286,14 @@
 				<h4>郑州大学 (2016.9 - 2018.6)  计算机科学与技术 </h4>
 			</section>
 
-			<section id="footer">
-				<h3>附言</h3>
-				<!--<p>工作经历涉及资讯，电商，健康，广告，金融领域，能迅速了解业务</p>-->
-				<p>我对前端抱有很大的热情，喜欢钻研和探索，深入源码和设计思想。</p>
-				<!--<p>而我亦有着不错的学习能力，设计和计算机等技术全部自学，系统看过很多技术书籍。</p>-->
-				<p>希望找到不错的平台和小伙伴，喜欢有挑战的工作</p>
-				<p>最后，感谢您的阅读。</p>
-			</section>
+			<!--<section id="footer">-->
+				<!--<h3>附言</h3>-->
+				<!--&lt;!&ndash;<p>工作经历涉及资讯，电商，健康，广告，金融领域，能迅速了解业务</p>&ndash;&gt;-->
+				<!--<p>我对前端抱有很大的热情，喜欢钻研和探索，深入源码和设计思想。</p>-->
+				<!--&lt;!&ndash;<p>而我亦有着不错的学习能力，设计和计算机等技术全部自学，系统看过很多技术书籍。</p>&ndash;&gt;-->
+				<!--<p>希望找到不错的平台和小伙伴，喜欢有挑战的工作</p>-->
+				<!--<p>最后，感谢您的阅读。</p>-->
+			<!--</section>-->
 		</main>
 	</div>
 
